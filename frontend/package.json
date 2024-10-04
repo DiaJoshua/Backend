@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -48,10 +47,5 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "react-google-recaptcha": "^3.1.0",
     "react-scripts": "^5.0.1"
-=======
-  "dependencies": {
-    "mongodb": "^6.8.0",
-    "react-google-recaptcha": "^3.1.0"
->>>>>>> 907c75257cfabef16ccdb42a48503bfd9f565bb5
   }
 }
