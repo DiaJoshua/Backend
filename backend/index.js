@@ -45,11 +45,10 @@ const sendEmail = async (to, subject, text) => {
   });
 };
 
-app.use(cors(
-  {
-    origin: []
-  }
-));
+app.use(cors({
+  origin: ['https://ecommerce-web-s55t.vercel.app'],
+  credentials: true,  // This allows cookies and credentials to be sent
+}));
 app.use(express.json());
 app.use("/api/transactions", transactionRoutes);
 app.use("/api", productRoute);
