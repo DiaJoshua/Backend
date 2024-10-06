@@ -45,6 +45,7 @@ const sendEmail = async (to, subject, text) => {
   });
 };
 
+
 app.use(cors({
   origin: ['https://ecommerce-web-s55t.vercel.app'],
   credentials: true,  // This allows cookies and credentials to be sent
