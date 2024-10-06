@@ -32,7 +32,7 @@ const ChangePassword = () => {
 
     try {
       const userResponse = await fetch(
-        `http://localhost:4000/fetchuser/${userId}`,
+        `https://ecommerce-web-puce.vercel.app/fetchuser/${userId}`,
         {
           method: "GET",
           headers: {
@@ -52,7 +52,7 @@ const ChangePassword = () => {
       setNewPassword("");
       setConfirmPassword("");
       const updateResponse = await fetch(
-        `http://localhost:4000/updatepassword/${userId}`,
+        `https://ecommerce-web-puce.vercel.app/updatepassword/${userId}`,
         {
           method: "POST",
           headers: {
