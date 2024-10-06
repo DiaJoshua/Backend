@@ -11,5 +11,3 @@ EMAIL_USER=reyeshannahjoy82@gmail.com
 EMAIL_PASSWORD=cnoy eucq dvka vrlt
 
 REACT_APP_POSITION_STACK_API_KEY=48ceab57881e0d4b21c7d7c68d31d792
-
-../frontend/ >> .gitignore
